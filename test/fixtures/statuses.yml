@@ -1,0 +1,23 @@
+# == Schema Information
+#
+# Table name: statuses
+#
+#  id         :integer          not null, primary key
+#  date       :datetime
+#  status     :integer
+#  service_id :integer          not null
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  date: 2019-11-26 15:08:49
+  status: 1
+  service: one
+
+two:
+  date: 2019-11-26 15:08:49
+  status: 1
+  service: two
